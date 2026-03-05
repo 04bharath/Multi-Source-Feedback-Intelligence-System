@@ -646,78 +646,9 @@ docker rmi feedback-intelligence
 | `Port 8501 in use` | Another Streamlit running | Use `streamlit run app.py --server.port 8502` |
 | `Cache showing old data` | Streamlit cache | Click 🗑️ Clear Cache button and restart |
 
-### Clear Cache Completely
 
-```bash
-# Stop Streamlit first (Ctrl+C), then:
 
-# Windows
-rmdir /s /q __pycache__
-rmdir /s /q fetchers\__pycache__
-rmdir /s /q analysis\__pycache__
-rmdir /s /q reporting\__pycache__
-rmdir /s /q utils\__pycache__
 
-# Mac/Linux
-find . -type d -name __pycache__ -exec rm -rf {} +
 
-# Restart
-streamlit run app.py
-```
-
-### Check Python Version
-
-```bash
-python --version
-# Must be 3.10 or higher
-```
-
-### Verify All Files Exist
-
-```bash
-# Windows
-dir /s /b *.py
-
-# Mac/Linux
-find . -name "*.py" | sort
-```
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/my-feature`
-3. Make your changes following PEP8 standards
-4. Add tests for new functionality
-5. Run the test suite: `pytest tests/ --cov=. -v`
-6. Ensure coverage stays above 80%
-7. Submit a pull request
-
-### Code Standards
-
-- Follow **PEP8** style guide
-- Add **type hints** to all functions
-- Write **docstrings** for every class and method
-- Use `get_logger(__name__)` instead of `print()`
-- Handle all edge cases with proper error messages
-
----
-
-## 📄 License
-
-MIT License — free to use, modify, and distribute.
-
----
-
-## 👨‍💻 Author
-
-Built with ❤️ using Python, Streamlit, and HuggingFace Transformers.
-
----
-
-<p align="center">
-  ⭐ If this project helped you, give it a star!
-</p>
 
 
