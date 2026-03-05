@@ -491,60 +491,14 @@ Click **Generate PDF Report** → then **⬇️ Download PDF**
 ## 📸 Dashboard Screenshots
 
 ### Main Dashboard
-```
-┌─────────────────────────────────────────────────────────────┐
-│  📊 Multi-Source Feedback Intelligence System               │
-│  Unified review intelligence across platforms               │
-├──────────┬──────────────────────────────────────────────────┤
-│ SIDEBAR  │  📝 Total    😊 Positive  😞 Negative  ⭐ Rating │
-│          │  1,250       875 (70%)    375 (30%)    3.8/5    │
-│ Sources  ├──────────────────────────────────────────────────┤
-│ ✅ GPlay │                                                  │
-│ ✅ Store │         📈 Sentiment Trend Chart                 │
-│ ✅ CSV   │    +1.0 ┤                                        │
-│          │    +0.5 ┤    ╭──╮    ╭──────╮                   │
-│ Filters  │     0.0 ┤───╯  ╰────╯      ╰──                  │
-│ Date     │    -0.5 ┤                                        │
-│ Source   │         └────────────────────────────            │
-│ Sentiment│              Jan    Feb    Mar                   │
-│          ├──────────────────────────────────────────────────┤
-│ 🗑️ Cache │  🥧 Distribution  │  🔥 Top Issues              │
-│ 🔄 Fetch │  ╭────────╮       │  1. crash      ████ 45.2   │
-└──────────┘  │ 70% ✅  │       │  2. login      ███  38.1   │
-              │ 30% ❌  │       │  3. slow       ██   29.4   │
-              ╰────────╯       │  4. payment     ██   24.7   │
-```
+<img width="849" height="778" alt="image" src="https://github.com/user-attachments/assets/3fcd222c-6270-42ca-8bd4-5f6a048b358a" />
+
+<img width="1916" height="784" alt="image" src="https://github.com/user-attachments/assets/012a67ff-9a78-4b75-aeab-35210e998aad" />
 
 ### PDF Report Preview
-```
-┌─────────────────────────────────┐
-│                                 │
-│        Your Company             │
-│   Feedback Intelligence Report  │
-│  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━  │
-│  Period: Jan 01 – Mar 05, 2025  │
-│  Generated: March 05, 2025      │
-│  Total Reviews: 1,250           │
-│                                 │
-├─────────────────────────────────┤
-│  Executive Summary              │
-│  ┌─────────────┬───────────┐   │
-│  │ Total       │ 1,250     │   │
-│  │ Positive    │ 875 (70%) │   │
-│  │ Negative    │ 375 (30%) │   │
-│  │ Avg Rating  │ 3.80/5.0  │   │
-│  └─────────────┴───────────┘   │
-├─────────────────────────────────┤
-│  Sentiment Trend   [Chart]      │
-│  Distribution      [Pie]        │
-│  Top Issues        [Table]      │
-│  Recommendations               │
-│  1. Address crash issues...     │
-│  2. Improve login flow...       │
-└─────────────────────────────────┘
-```
+<img width="321" height="702" alt="image" src="https://github.com/user-attachments/assets/13354ec7-5c52-4486-9a3d-bb582f950137" />
 
----
+
 
 ## ⚙️ Configuration
 
@@ -765,3 +719,5 @@ Built with ❤️ using Python, Streamlit, and HuggingFace Transformers.
 <p align="center">
   ⭐ If this project helped you, give it a star!
 </p>
+
+
